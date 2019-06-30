@@ -69,7 +69,6 @@
         methods: {
             selectAnswer(index) {
                 this.selectedIndex = index;
-                console.log('index -> ', index);
             },
             submitAnswer() {
                 let isCorrect = false;
